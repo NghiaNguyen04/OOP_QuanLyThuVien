@@ -1,6 +1,6 @@
 package model;
 
-public class Admin extends Human{
-    private String AdminID;
+public class Admin {
+    private String adminID;
     private String password;
 }
