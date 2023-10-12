@@ -8,6 +8,4 @@ public class Book {
     private int PublishedYear;
     private String category;
     private String status;
-    private int remainingBooks;
-    private double price;
 }
