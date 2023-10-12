@@ -1,6 +1,7 @@
 package model;
 
 public class Publisher {
+    private String publisherID;
     private String name;
     private String address;
     private String phone;

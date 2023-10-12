@@ -3,6 +3,7 @@ package model;
 import java.util.Date;
 
 public class Author {
+    private String AuthorID;
     private String name;
     private String hometown;
     private Date dateOfBirth;
