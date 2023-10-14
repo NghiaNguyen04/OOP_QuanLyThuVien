@@ -9,19 +9,6 @@ public class User {
     private String email;
     private String address;
 
-    public User() {
-    }
-
-    public User(String userID, String password, String surName, String firstName, String phone, String email, String address) {
-        this.userID = userID;
-        this.password = password;
-        this.surName = surName;
-        this.firstName = firstName;
-        this.phone = phone;
-        this.email = email;
-        this.address = address;
-    }
-
     public String getUserID() {
         return userID;
     }
@@ -76,5 +63,30 @@ public class User {
 
     public void setAddress(String address) {
         this.address = address;
+    }
+    public User() {
+    }
+
+    public User(String userID, String password, String surName, String firstName, String phone, String email, String address) {
+        this.userID = userID;
+        this.password = password;
+        this.surName = surName;
+        this.firstName = firstName;
+        this.phone = phone;
+        this.email = email;
+        this.address = address;
+    }
+
+    @Override
+    public String toString() {
+        return "User{" +
+                "userID='" + userID + '\'' +
+                ", password='" + password + '\'' +
+                ", surName='" + surName + '\'' +
+                ", firstName='" + firstName + '\'' +
+                ", phone='" + phone + '\'' +
+                ", email='" + email + '\'' +
+                ", address='" + address + '\'' +
+                '}';
     }
 }
