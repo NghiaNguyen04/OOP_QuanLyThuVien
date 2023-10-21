@@ -1,6 +1,6 @@
 package DAO;
 
-import model.Book;
+import DTO.Book;
 
 public class BookDao implements DAOInterface<Book>{
 

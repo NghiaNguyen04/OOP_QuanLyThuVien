@@ -1,6 +1,6 @@
 package DAO;
 
-import model.User;
+import DTO.User;
 
 public class UserDao implements DAOInterface<User>{
     @Override

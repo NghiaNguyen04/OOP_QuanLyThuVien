@@ -1,4 +1,4 @@
-package model;
+package DTO;
 
 public class Novel extends Book{
     private String genre; // vd: tình cảm, hành động, kinh dị, chính kịch,...

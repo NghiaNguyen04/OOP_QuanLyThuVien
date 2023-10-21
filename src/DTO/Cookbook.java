@@ -1,4 +1,4 @@
-package model;
+package DTO;
 
 public class Cookbook extends Book{
     private String cuisineType; // thể loại ẩm thực: Indian, Chinese, Italian, French, VietNam

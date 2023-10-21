@@ -1,4 +1,4 @@
-package model;
+package DTO;
 
 public class TextBook extends Book{
     private String subject;

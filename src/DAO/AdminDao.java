@@ -1,7 +1,6 @@
 package DAO;
 
-import model.Admin;
-import model.Book;
+import DTO.Admin;
 
 public class AdminDao implements DAOInterface<Admin>{
 

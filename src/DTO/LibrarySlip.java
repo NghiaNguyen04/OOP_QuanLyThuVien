@@ -1,4 +1,4 @@
-package model;
+package DTO;
 import java.time.LocalDate;
 public class LibrarySlip {
     private String librarySlipID;

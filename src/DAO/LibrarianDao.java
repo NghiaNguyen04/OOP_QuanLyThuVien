@@ -1,5 +1,5 @@
 package DAO;
-import model.Librarian;
+import DTO.Librarian;
 public class LibrarianDao implements DAOInterface<Librarian>{
 
     @Override

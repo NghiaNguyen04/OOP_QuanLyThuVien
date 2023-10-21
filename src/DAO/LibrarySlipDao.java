@@ -1,6 +1,6 @@
 package DAO;
 
-import model.LibrarySlip;
+import DTO.LibrarySlip;
 
 public class LibrarySlipDao implements DAOInterface<LibrarySlip> {
     @Override
